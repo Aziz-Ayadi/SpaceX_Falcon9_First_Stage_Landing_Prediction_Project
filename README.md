@@ -80,14 +80,21 @@ When finishing up the data cleaning process, we had to get insights and patterns
 I looked at the relationships and the correlation between all available features of this data that we got and below are a few highlights of the visualizations that I made :
 <br><br>
 <img src="LaunchSite_vs_FlightNumber.png">
+<br>
 <img src="SuccessRate_by_OrbitType.png">
+<br>
 <img src="SuccessRate_by_Year.png">
+<br>
 <img src="All_LaunchSites_Locations.png">
+<br>
 <img src="Successful_and_Failed_Launches_for_each_site.png">
+<br>
 <img src="Distance_between_LaunchSites_and_its_proximities.png">
 
 ## Dashboarding
 
 I created a web-based visual interactive dashboard so all stakeholders could understand more our data and dig deeper into the details and here are both charts used into this dashboard :
+<br><br>
 <img src="Total_Success_Launches_by_LaunchSite.png">
+<br>
 <img src="Correlation_between_PayloadMass_and_SuccessRate_by_LaunchSite.png">
