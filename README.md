@@ -85,3 +85,7 @@ I looked at the relationships and the correlation between all available features
 <img src="All_LaunchSites_Locations.png">
 <img src="Successful_and_Failed_Launches_for_each_site.png">
 <img src="Distance_between_LaunchSites_and_its_proximities.png">
+
+## Dashboarding
+
+I created a web-based visual interactive dashboard so all stakeholders could understand more our data and dig deeper into the details and here are some charts used into this dashboard :
