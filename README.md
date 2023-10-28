@@ -79,3 +79,6 @@ When finishing up the data cleaning process, we had to get insights and patterns
 
 I looked at the relationships and the correlation between all available features of this data that we got and below are a few highlights of the visualizations that I made :
 <br><br>
+<img src="LaunchSite_vs_FlightNumber.png">
+<img src="SuccessRate_by_OrbitType.png">
+<img src="SuccessRate_by_Year.png">
