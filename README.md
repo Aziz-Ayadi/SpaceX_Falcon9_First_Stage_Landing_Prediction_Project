@@ -81,4 +81,4 @@ I looked at the relationships and the correlation between all available features
 <br><br>
 <img src="LaunchSite_vs_FlightNumber.png">
 <img src="SuccessRate_by_OrbitType.png">
-<img src="SuccessRate_by_Year">
+<img src="SuccessRate_by_Year.png">
