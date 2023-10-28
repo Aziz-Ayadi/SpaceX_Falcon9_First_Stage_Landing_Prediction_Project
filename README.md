@@ -61,7 +61,7 @@ After scraping data out from wikipedia and SpaceX public API, we had to clean it
 * Created the dependent variable (target) naming it "Class" which will be a binary variable (0 for a failed landing first stage & 1 for a successfully landing first stage) using Flight Outcome variable.
 * Created dummy variables from categorical features so the model could use them in the its training process.
 
-## EDA with SQL
+## EDA with SQL (SQLITE3 & IBM DB2)
 
 When finishing up the data cleaning process, we had to get insights and patterns from our data using SQL (SQLITE3 & IBM DB2) by executing some queries (10) :
 * The names of the unique launch sites in the space mission
@@ -75,7 +75,7 @@ When finishing up the data cleaning process, we had to get insights and patterns
 * The records which will display the month names, failure landing_outcomes in drone ship ,booster versions, launch_site for the months in year 2015
 * Ranking the count of successful landing_outcomes between the date 04-06-2010 and 20-03-2017 in descending order
 
-## EDA with data visualization
+## EDA with data visualization (Matplotlib, Seaborn & Folium)
 
 I looked at the relationships and the correlation between all available features of this data that we got and below are a few highlights of the visualizations that I made :
 <br><br>
