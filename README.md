@@ -93,7 +93,7 @@ I looked at the relationships and the correlation between all available features
 
 ## Dashboarding
 
-I created a web-based visual interactive dashboard so all stakeholders could understand more our data and dig deeper into the details and here are both charts used into this dashboard :
+I created a web-based interactive visual analytics so all stakeholders could understand more our data and dig deeper into the details and here are both charts used into this dashboard :
 <br><br>
 <img src="Total_Success_Launches_by_LaunchSite.png">
 <br>
