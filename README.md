@@ -98,3 +98,15 @@ I created a web-based interactive visual analytics so all stakeholders could und
 <img src="Total_Success_Launches_by_LaunchSite.png">
 <br>
 <img src="Correlation_between_PayloadMass_and_SuccessRate_by_LaunchSite.png">
+
+## Model Building & Performance
+
+First, I standardized the data with Standard Scaler so we could get rid of outliers and all variables could be on the same scale. Then, I splitted it into training and test sets with a test size of 20%.
+
+I tried four different classification estimators (Logistic Regression, SVM, Decision Tree & KNN), tuned their hyperparameters and optimized them using GridSearch Cross-Validation and evaluated them using the accuracy metric (training & test accuracy) and here are the results I've got :
+* <b>Logistic Regression :</b> training accuracy = 0.82 & test accuracy = 0.83
+* <b>Support Vector Machine :</b> training accuracy = 0.85 & test accuracy = 0.83
+* <b>Decision Tree Classifier :</b> training accuracy = 0.89 & test accuracy = 0.83
+* <b>K-Nearest Neighbors :</b> training accuracy = 0.83 & test accuracy = 0.78
+
+And we can conclude that decision tree classifier has performed a little way better than all other estimators with the data that we have especially in finding the right patterns in it to achieve the main objective of predicting whether the first stage of Falcon9 spacecraft will land successfully or not.
