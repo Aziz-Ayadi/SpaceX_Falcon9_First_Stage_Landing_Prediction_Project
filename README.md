@@ -22,7 +22,7 @@ In this project, we will predict if the Falcon 9 first stage will land successfu
 scraped 121 SpaceX flights of Falcon9 rockets from 'wikipedia.org'. With each flight we get these variables :
 * Flight Number
 * Launch Site
-* Name of distributer of each rocket's payload (The portion of a spacecraft that is responsible for achieving the mission's primary objectives)
+* Name of distributor of each rocket's payload (The portion of a spacecraft that is responsible for achieving the mission's primary objectives)
 * Payload mass
 * Type of orbit each rocket will follow
 * Customer
@@ -55,7 +55,7 @@ scraped 90 SpaceX flights of Falcon9 rockets from 'api.spacexdata.com'. With eac
 
 ## Data Cleaning & Wrangling
 
-After scraping data out from wikipedia and SpaceX public API, we had to clean it up and prepare it for data modeling, and to for that I made the following updates on it :
+After scraping data out of wikipedia web page and SpaceX public API, we had to clean it up and prepare it for data modeling, and to do that I made the following updates on it :
 * Filtered our collected data to only contain Falcon9 launches.
 * Dealt with missing values within Payload mass feature and filled it out with the mean of non-missing payload mass values.
 * Created the dependent variable (target) naming it "Class" which will be a binary variable (0 for a failed landing first stage & 1 for a successfully landing first stage) using Flight Outcome variable.
